@@ -1,0 +1,11 @@
+sw=input('How many words you want to search \n')
+for i in range(int(sw)):
+    word=input('Type the word to find out number of times occurrence \n')
+    wordlower=word.lower()
+    fr=open('Enter the source path of a file','r')
+    data=fr.read()
+    lowerdata=data.lower()
+    spdata=lowerdata.split()
+    wc=spdata.count(wordlower)
+    print(wc)
+    fr.close()
