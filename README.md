@@ -1,3 +1,3 @@
 # wordcount
-python script to find word count from provided file
+python script to find out word count from provided file
 
